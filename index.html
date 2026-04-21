@@ -1,137 +1,192 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Михайло Мельник — CV</title>
-  <meta name="description" content="Михайло Мельник — CV" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Михайло Мельник — CV</title>
+    <meta name="description" content="Михайло Мельник — CV"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7ZZ0C5HYR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-N7ZZ0C5HYR');
+    </script>
 </head>
 <body>
-  <main class="resume">
+<main class="resume">
     <header class="hero">
-      <img class="avatar" src="profile.png" alt="Фото Михайла Мельника" />
-      <div class="hero__content">
-        <h1>Михайло Мельник</h1>
-      </div>
+        <img class="avatar" src="profile.png" alt="Фото профілю"/>
+        <div class="hero__content">
+            <h1>Михайло Мельник</h1>
+        </div>
     </header>
 
     <div class="content-grid">
-      <section class="main-column">
-        <section class="section">
-          <h2>Освіта</h2>
+        <section class="main-column">
+            <section class="section">
+                <h2>Освіта</h2>
 
-          <article class="entry entry--compact">
-            <div class="entry__main">
-              <h3>Магістр з інтелектуальних систем та технологій</h3>
-              <p class="entry__org">Київський авіаційний інститут</p>
-            </div>
-            <div class="entry__meta">09.2023 - 12.2024</div>
-          </article>
+                <article class="entry entry--compact">
+                    <div class="entry__main">
+                        <h3>Магістр з інтелектуальних систем та технологій</h3>
+                        <p class="entry__org">Київський авіаційний інститут</p>
+                    </div>
+                    <div class="entry__meta">09.2023 - 12.2024</div>
+                </article>
 
-          <article class="entry entry--compact">
-            <div class="entry__main">
-              <h3>Бакалавр, Системи технічного захисту інформації, автоматизація її обробки</h3>
-              <p class="entry__org">Національний авіаційний університет</p>
-            </div>
-            <div class="entry__meta">09.2020 - 06.2023</div>
-          </article>
+                <article class="entry entry--compact">
+                    <div class="entry__main">
+                        <h3>Бакалавр, Системи технічного захисту інформації, автоматизація її обробки</h3>
+                        <p class="entry__org">Національний авіаційний університет</p>
+                    </div>
+                    <div class="entry__meta">09.2020 - 06.2023</div>
+                </article>
 
-          <article class="entry entry--compact">
-            <div class="entry__main">
-              <h3>Молодший спеціаліст, Розробка програмного забечення</h3>
-              <p class="entry__org">Коледж інформаційних систем і технологій</p>
-            </div>
-            <div class="entry__meta">09.2017 - 06.2020</div>
-          </article>
+                <article class="entry entry--compact">
+                    <div class="entry__main">
+                        <h3>Молодший спеціаліст, Розробка програмного забечення</h3>
+                        <p class="entry__org">Коледж інформаційних систем і технологій</p>
+                    </div>
+                    <div class="entry__meta">09.2017 - 06.2020</div>
+                </article>
+            </section>
+
+            <section class="section section--separated">
+                <h2>Досвід роботи</h2>
+
+                <article class="entry">
+                    <div class="entry__main">
+                        <h3>Інженер-програміст</h3>
+                        <p class="entry__org">Київський національний економічний університет, Київ + remote</p>
+                        <div class="entry__text">
+                            <p>Беру участь у налаштуванні інфраструктури, парку техніки включно з користувацькими
+                                пристроями та автоматизую рутинні задачі з використанням Python. Працюю із даними та
+                                формую звітність для керівництва за допомогою SQL.</p>
+                            <p>Оптимізовую внутрішні процеси, впроваджую базу знань та координую розподіл задач у
+                                команді. Взаємодію з іншими підрозділами університету.</p>
+                        </div>
+                    </div>
+                    <div class="entry__meta">07.2025 - Нинішній</div>
+                </article>
+
+                <article class="entry">
+                    <div class="entry__main">
+                        <h3>Business Intelligence Developer</h3>
+                        <p class="entry__org">HELSI, Київ + remote</p>
+                        <div class="entry__text">
+                            <p>Працював з SQL Server та PostgreSQL: обробка великих масивів даних (десятки мільйонів
+                                записів), робота з SQL для підготовки та трансформації даних, розрахунку метрик та
+                                підтримки аналітичних процесів.</p>
+                            <p>Підтримував інтерактивні дашборди в Power BI для клієнтів і внутрішніх команд. Брав
+                                участь у процесах ETL/ELT та підготовці даних з використанням SQL і Python, маю досвід
+                                роботи з Azure Data Factory (створення та підтримка простих data pipelines).</p>
+                            <p>Автоматизовував процеси звітності та взаємодію з бізнес-користувачами і клієнтами для
+                                збору вимог і реалізації аналітичних рішень. Орієнтуюсь в медичному домені даних.</p>
+                        </div>
+                    </div>
+                    <div class="entry__meta">12.2022 - 04.2026</div>
+                </article>
+
+                <article class="entry">
+                    <div class="entry__main">
+                        <h3>Technical Support Specialist</h3>
+                        <p class="entry__org">HELSI, Київ</p>
+                        <div class="entry__text">
+                            <p>Фахівець технічної підтримки (2–3 лінія) у продуктовій компанії в медичному домені.
+                                Підтримка клієнтів та внутрішніх процесів, робота із запитами різної складності та
+                                взаємодія з технічними й бізнес-командами.</p>
+                            <p>Працював з даними: готував вибірки та надавав дані для аналітиків, взаємодіяв із
+                                маркетинговим та аналітичним напрямами.</p>
+                            <p>Автоматизовував рутинні задачі, підвищуючи ефективність обробки запитів. Отриманий досвід
+                                роботи з даними став основою для подальшого розвитку в напрямку BI.</p>
+                        </div>
+                    </div>
+                    <div class="entry__meta">04.2021 - 10.2022</div>
+                </article>
+
+                <article class="entry">
+                    <div class="entry__main">
+                        <h3>Technical Support Specialist</h3>
+                        <p class="entry__org">Київський національний економічний університет, Київ</p>
+                        <div class="entry__text">
+                            <p>Основні задачі полягали у адмініструванні ІТ-інфраструктури в освітньому середовищі:
+                                обслуговування парку ПК, робота з внутрішніми системами та Google Workspace, підтримка
+                                користувачів.</p>
+                            <p>Робота з веб-контентом та технічний супровід івентів (зйомка, монтаж,
+                                онлайн-трансляції).</p>
+                        </div>
+                    </div>
+                    <div class="entry__meta">11.2019 - 04.2021</div>
+                </article>
+            </section>
+
+            <section class="section section--separated">
+                <h2>Курси</h2>
+                <article class="entry entry--compact">
+                    <div class="entry__main">
+                        <h3>SQL</h3>
+                        <p class="entry__org">Комп'ютерна школа Hillel IT School</p>
+                        <p class="entry__link"><a href="https://certificate.ithillel.ua/view/49451508"
+                                                  data-track="certificate" target="_blank" rel="noopener noreferrer">Сертифікат</a>
+                        </p>
+                    </div>
+                    <div class="entry__meta">2026</div>
+                </article>
+            </section>
         </section>
 
-        <section class="section section--separated">
-          <h2>Досвід роботи</h2>
+        <aside class="side-column">
+            <section class="section side-section side-section--links">
+                <ul class="plain-links">
+                    <li><a href="https://www.linkedin.com/in/mykhailo-melnyk-b2437416b/" data-track="linkedin"
+                           target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://github.com/msmelnyk" data-track="github" target="_blank"
+                           rel="noopener noreferrer">Github</a></li>
+                </ul>
+            </section>
 
-          <article class="entry">
-            <div class="entry__main">
-              <h3>Інженер-програміст</h3>
-              <p class="entry__org">Київський національний економічний університет, Київ + remote</p>
-              <div class="entry__text">
-                <p>Беру участь у налаштуванні інфраструктури, парку техніки включно з користувацькими пристроями та автоматизую рутинні задачі з використанням Python. Працюю із даними та формую звітність для керівництва за допомогою SQL.</p>
-                <p>Оптимізовую внутрішні процеси, впроваджую базу знань та координую розподіл задач у команді. Взаємодію з іншими підрозділами університету.</p>
-              </div>
-            </div>
-            <div class="entry__meta">07.2025 - Нинішній</div>
-          </article>
-
-          <article class="entry">
-            <div class="entry__main">
-              <h3>Business Intelligence Developer</h3>
-              <p class="entry__org">HELSI, Київ + remote</p>
-              <div class="entry__text">
-                <p>Працював з SQL Server та PostgreSQL: обробка великих масивів даних (десятки мільйонів записів), робота з SQL для підготовки та трансформації даних, розрахунку метрик та підтримки аналітичних процесів.</p>
-                <p>Підтримував інтерактивні дашборди в Power BI для клієнтів і внутрішніх команд. Брав участь у процесах ETL/ELT та підготовці даних з використанням SQL і Python, маю досвід роботи з Azure Data Factory (створення та підтримка простих data pipelines).</p>
-                <p>Автоматизовував процеси звітності та взаємодію з бізнес-користувачами і клієнтами для збору вимог і реалізації аналітичних рішень. Орієнтуюсь в медичному домені даних.</p>
-              </div>
-            </div>
-            <div class="entry__meta">12.2022 - 04.2026</div>
-          </article>
-
-          <article class="entry">
-            <div class="entry__main">
-              <h3>Technical Support Specialist</h3>
-              <p class="entry__org">HELSI, Київ</p>
-              <div class="entry__text">
-                <p>Фахівець технічної підтримки (2–3 лінія) у продуктовій компанії в медичному домені. Підтримка клієнтів та внутрішніх процесів, робота із запитами різної складності та взаємодія з технічними й бізнес-командами.</p>
-                <p>Працював з даними: готував вибірки та надавав дані для аналітиків, взаємодіяв із маркетинговим та аналітичним напрямами.</p>
-                <p>Автоматизовував рутинні задачі, підвищуючи ефективність обробки запитів. Отриманий досвід роботи з даними став основою для подальшого розвитку в напрямку BI.</p>
-              </div>
-            </div>
-            <div class="entry__meta">04.2021 - 10.2022</div>
-          </article>
-
-          <article class="entry">
-            <div class="entry__main">
-              <h3>Technical Support Specialist</h3>
-              <p class="entry__org">Київський національний економічний університет, Київ</p>
-              <div class="entry__text">
-                <p>Основні задачі полягали у адмініструванні ІТ-інфраструктури в освітньому середовищі: обслуговування парку ПК, робота з внутрішніми системами та Google Workspace, підтримка користувачів.</p>
-                <p>Робота з веб-контентом та технічний супровід івентів (зйомка, монтаж, онлайн-трансляції).</p>
-              </div>
-            </div>
-            <div class="entry__meta">11.2019 - 04.2021</div>
-          </article>
-        </section>
-
-        <section class="section section--separated">
-          <h2>Курси</h2>
-          <article class="entry entry--compact">
-            <div class="entry__main">
-              <h3>SQL</h3>
-              <p class="entry__org">Комп'ютерна школа Hillel IT School</p>
-              <p class="entry__link"><a href="https://certificate.ithillel.ua/view/49451508">Сертифікат</a></p>
-            </div>
-            <div class="entry__meta">2026</div>
-          </article>
-        </section>
-      </section>
-
-      <aside class="side-column">
-        <section class="section side-section side-section--links">
-          <ul class="plain-links">
-            <li><a href="https://www.linkedin.com/in/mykhailo-melnyk-b2437416b/">LinkedIn</a></li>
-            <li><a href="https://github.com/msmelnyk">Github</a></li>
-          </ul>
-        </section>
-
-        <section class="section side-section">
-          <h2>Мова</h2>
-          <ul class="language-list">
-            <li>Англійська - B1</li>
-          </ul>
-        </section>
-      </aside>
+            <section class="section side-section">
+                <h2>Мова</h2>
+                <ul class="language-list">
+                    <li>Англійська - B1</li>
+                </ul>
+            </section>
+        </aside>
     </div>
-  </main>
+</main>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        const eventsMap = {
+            github: 'click_github',
+            linkedin: 'click_linkedin',
+            certificate: 'click_certificate'
+        };
+
+        Object.keys(eventsMap).forEach(key => {
+            const el = document.querySelector(`[data-track="${key}"]`);
+            if (el) {
+                el.addEventListener('click', function () {
+                    gtag('event', eventsMap[key], {
+                        event_category: 'outbound',
+                        event_label: el.href
+                    });
+                });
+            }
+        });
+
+    });
+</script>
 </body>
 </html>
